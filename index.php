@@ -23,10 +23,10 @@
     <?php echo "= ".$c - $d; ?>
     <br>
     <?php
-       $c = 11;
-       $d = 7;
+       $e = 11;
+       $f = 7;
     ?>
     <?php echo "11 x 7"?>
-    <?php echo "= ".$c * $d; ?>
+    <?php echo "= ".$e * $f; ?>
 </body>
 </html>
