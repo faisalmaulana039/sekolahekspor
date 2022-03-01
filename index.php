@@ -28,5 +28,12 @@
     ?>
     <?php echo "11 x 7"?>
     <?php echo "= ".$e * $f; ?>
+    <br>
+    <?php
+       $e = 10;
+       $f = 5;
+    ?>
+    <?php echo "10 : 5"?>
+    <?php echo "= ".$e / $f; ?>
 </body>
 </html>
