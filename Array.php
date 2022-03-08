@@ -9,7 +9,7 @@ $data = [
     'program studi' => 'S1 Sistem Informasi',
     'organisasi' => 'Badan Eksekutif Mahasiswa',
     'nomor' => '081326442460',
-    'sosial media' => ['ig' => '@faisalmau_']
+    'media sosial' => ['ig' => '@faisalmau_', 'linkedin' => 'Faisal Maulana Akbar']
   ];
   
   echo '<br>';
@@ -29,7 +29,7 @@ $data = [
   echo '<br>';
   echo 'Nomor : '.$data['nomor'];
   echo '<br>';
-  echo 'Media Sosial : '.'Instagram '.$data['sosmed']['ig'];
+  echo 'Media Sosial : '.'Instagram '.$data['media sosial']['ig'].' & '.'Linkedin '.$data['media sosial']['linkedin'];
   
 
 ?>
