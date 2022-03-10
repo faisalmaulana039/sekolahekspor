@@ -27,3 +27,4 @@ $robot->getWarnaBadan();
 $robot->changeWarnaBadan("Hijau", "Putih", 2);
 echo "<br>";
 $robot->getWarnaBadan();
+echo "<br>";
